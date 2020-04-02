@@ -1,0 +1,497 @@
+html, body, .body-bg {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar-mainnavigation {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+    padding: 0;
+    font-weight:600;
+    font-size: 1.2rem;
+}
+
+.navbar-mainnavigation .navbar-nav > li > .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: none;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.navbar-mainnavigation .navbar-brand-image img {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: auto;
+    max-height: 100%;
+}
+
+#page-header {
+    padding-top:4.5rem;
+    padding-bottom:2em;
+}
+
+#p5 body, #p5 .body-bg {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e7;
+}
+
+h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
+    font-weight:500;
+    font-weight:bold;
+}
+
+/*** TITULOS EN HOME, PRODUCTOS, SHOWROOMS ***/
+#c5 {
+    padding-bottom:1.4rem;
+    margin-bottom:0;
+    margin-top: 0;
+    padding-top:1.9rem;
+    letter-spacing: -1.4px;
+    background-color:#e6e6e7;
+}
+
+#c121 {
+    padding-bottom:1.4rem;
+    margin-bottom:0;
+    margin-top: 0;
+    padding-top:112px;
+    letter-spacing: -1.4px;
+    background-color:#e6e6e7;
+}
+
+#c6 h2, #c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2 {
+    padding-bottom: 0;
+    margin-top:95px;
+    margin-bottom: -1rem;
+    letter-spacing: -1.4px;
+    font-size: 2.3rem;
+}
+
+#c6 {
+    padding: 0;
+    margin:0;
+    margin-bottom: -1rem;
+    letter-spacing: -1.4px;
+}
+
+/*** MARCAS EN PRODUCTOS, SHOWROOMS ***/
+/*** Each line controls one product category ***/
+#c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2,
+#c26 h2, #c28 h2, #c30 h2, #c32 h2, #c34 h2,
+#c37 h2, #c39 h2, #c41 h2,
+#c44 h2, #c46 h2, #c48 h2,
+#c51 h2, #c53 h2, #c55 h2, #c57 h2, #c59 h2, #c61 h2,
+#c64 h2, #c66 h2, #c68 h2, #c70 h2,
+#c73 h2, #c75 h2, #c77 h2, #c79 h2,
+#c82 h2, #c84 h2 h2, #c86 h2,
+#c89 h2, #c91 h2, #c93 h2, #c95 h2 {
+    padding-bottom:0;
+    margin-bottom: .4rem;
+    margin-top: .8rem;
+    /*letter-spacing: -1.4px;*/
+    font-weight:normal;
+    font-size: 1.9rem;
+}
+
+#c9, #c10, #c11, #c13, #c15, #c17, #c19, #c21, #c23,
+#c26, #c28, #c30, #c32, #c34,
+#c37, #c39, #c41,
+#c44, #c46, #c48,
+#c51, #c53, #c55, #c57, #c59, #c61,
+#c64, #c66, #c68, #c70,
+#c73, #c75, #c77, #c79,
+#c82, #c84, #c86,
+#c89, #c91, #c93, #c95  {
+    padding-bottom:1.2rem;
+}
+
+/*** Each id controls one showroom ***/
+#c110, #c111, #c113, #c115, #c117 {
+    padding-bottom:0;
+    margin-bottom:1.4rem;
+    margin-top: 1.9rem;
+    letter-spacing: -1.4px;
+}
+
+/*** END MARCAS EN PRODUCTOS, SHOWROOMS ***/
+
+/*** WIDTH OF CONTAINER ***/
+@media (min-width: 1200px) {
+    .frame-container,
+    .container {
+        max-width:1500px;
+    }
+}
+/*** END WIDTH OF CONTAINER ***/
+
+/*****  CAROUSEL  *****/
+
+.carousel .carousel-control-icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: auto;
+    height: auto;
+    color: #7d7d7d;
+    padding: 1em;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel .carousel-control-icon::before {
+    transform: rotate(45deg);
+    content: '';
+    width: 1.8em;
+    height: 1.8em;
+    display: block;
+    border-top: 2px solid #7d7d7d;
+    border-right: 2px solid #7d7d7d;
+}
+
+/**** END CAROUSEL ****/
+
+/**** TEXT ON HOME ****/
+#c182 {
+    padding:0;
+}
+
+#c4 p {
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    font-weight: 300;
+    padding-top:3rem;
+}
+
+@media (max-width: 767.9px) {
+#c4 p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+}
+
+/**** END TEXT ON HOME ****/
+
+/*** HOME PRODUCTS BUTTONS ***/
+.bounding {
+    position: relative;
+    width: 100%;
+}
+
+.c-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: visibility 0.6s, opacity 0.5s ease-out;
+}
+
+.front-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    visibility:hidden;
+    opacity:0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bounding:hover .front-image {
+    visibility:visible;
+    opacity:.95;
+    filter:contrast(.89) brightness(130%) blur(2%);
+    -webkit-transition: visibility 0.6s, opacity 0.5s ease-out;
+}
+
+.bounding:hover .overlay {
+    width:100%;
+}
+
+.bounding:hover .c-image {
+    visibility:hidden;
+    opacity:0;
+}
+
+.text h2 {
+    white-space: nowrap;
+    position: relative;
+    color: #000;
+/*    font-size: 2.5vw;*/
+    font-weight:900;
+    overflow: hidden;
+    letter-spacing: -1.4px;
+}
+
+@media (max-width: 767.9px) {
+.text h2 {
+    white-space: nowrap;
+    position: relative;
+    color: #000;
+/*    font-size: 6vw;*/
+    font-weight:900;
+    overflow: hidden;
+}
+.wrapper2 .text h2 {
+    white-space: nowrap;
+    position: relative;
+    color: #000;
+/*    font-size: 6vw;*/
+    font-weight:900;
+    overflow: hidden;
+}
+}
+
+/***** PRODUCTS BUTTON GRID *****/
+
+@media (min-width: 768px) {
+.wrapper {
+    position:relative;
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 9px;
+    grid-auto-flow: dense;
+    background-color: #e6e6e7;
+}
+}
+
+@media (max-width: 767.9px) {
+.wrapper, .wrapper2 {
+    position:relative;
+    display:grid;
+    grid-gap: 6px;
+    background-color: #e6e6e7;
+}
+}
+
+/***** SHOWROOMS BUTTON GRID *****/
+
+@media (min-width: 768px) {
+.wrapper2 {
+    position:relative;
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 9px;
+    grid-auto-flow: dense;
+    background-color: #e6e6e7;
+}
+}
+
+/***** HORIZONTAL SCROLL *****/
+.hs-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom:4rem;
+    padding:0;
+}
+
+.hs-image {
+    flex: 0 0 auto;
+    width: calc( 100% / 1.4 );
+    height: intrinsic;
+    padding-left: 0;
+    padding-right: 9px;
+}
+
+
+.hs-wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.hs-wrap {
+    scrollbar-width: none;
+}
+
+/*figure {
+    display: block;
+    margin-bottom: 0;
+    line-height: 1.5;
+}*/
+
+/***** HORIZONTAL SCROLL END *****/
+
+/******* CONTACTO *******/
+#c123 h2, #c127 h2 {
+    font-weight:400;
+}
+
+#p5 h5 {
+    line-height:2.4rem;
+    font-size: 1.2rem;
+    padding-left:10px;
+}
+
+#c128 h5 {
+    line-height:2.4rem;
+    font-size: 1.2rem;
+    padding-left:10px;
+    padding-top: 1rem;
+}
+
+#p5 .main-section {
+    margin-top:30px;
+}
+
+#c123, #c127 {
+    border-bottom:1px solid #000;
+    padding-bottom:0;
+    margin-bottom:1rem;
+    padding-top:0;
+    max-width:855px;
+}
+
+.box {
+    display:flex;
+    height:100%;
+    width:fit-content;
+}
+
+.ordinal {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.9rem;
+    width:40px;
+    font-weight:400;
+}
+
+.address {
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+}
+
+.address p {
+    line-height:15%;
+    padding-left:10px;
+    width:320px;
+}
+
+@media (min-width: 1200px) {
+.wrapping {
+    display: grid;
+    grid-template-rows: repeat(3,34%);
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-flow: column;
+    grid-row-gap: 15px;
+    grid-column-gap: 50px;
+}
+.wrapping-usa {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    grid-row-gap: 15px;
+    grid-column-gap: 50px;
+}
+}
+
+.wrapping-usa .address p {
+    line-height:15%;
+    padding-left:10px;
+    width:240px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+.wrapping {
+    display: grid;
+    grid-template-rows: repeat(3,34%);
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-flow: column;
+    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+}
+}
+
+@media (max-width: 991.9px) {
+.wrapping {
+    display: grid;
+    grid-row-gap: 15px;
+}
+}
+
+/****** END OF CONTACTO ******/
+
+/*****  LOGOS  *****/
+#p1 .gallery-row {
+    padding-top:5rem;
+}
+
+#p1 .gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:4rem;
+    margin:0 15px;
+    max-width:145px;
+    height:auto;
+}
+
+#p1 .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 575.9px) {
+#p1 .gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:3rem;
+}
+}
+
+/*****  END OF LOGOS  *****/
+
+/*****  FOOTER  *****/
+.footer-section-meta {
+    color: #ffffff;
+    background-color: #e6e6e7;
+}
+
+/* sticky footer */
+body, .body-bg {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  background-color:#fff;
+}
+
+#page-footer {
+    margin-top: auto;
+}

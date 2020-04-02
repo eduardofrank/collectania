@@ -1,0 +1,240 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+    
+<f:layout name="Content" />
+
+<f:section name="Configuration">
+    <flux:form id="imageswapmenu" label="Image Swap Menu" description="Image swap on hover menu" options="{group: 'FCE', icon: '/typo3conf/ext/collectania/Resources/Public/Icons/imageswap.png'}">
+        <flux:field.input name="title1" label="Title 01"/>
+        <flux:field.input name="subtitle1" label="Subtitle 01"/>
+        <flux:field.file name="foregroundImage1" label="Image 01"/>
+        <flux:field.file name="backgroundImage1" label="Image Swap 01"/>
+        <flux:field.input name="link1" label="Link 01">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title2" label="Title 02"/>
+        <flux:field.input name="subtitle2" label="Subtitle 02"/>
+        <flux:field.file name="foregroundImage2" label="Image 02"/>
+        <flux:field.file name="backgroundImage2" label="Image Swap 02"/>
+        <flux:field.input name="link2" label="Link 02">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title3" label="Title 03"/>
+        <flux:field.input name="subtitle3" label="Subtitle 03"/>
+        <flux:field.file name="foregroundImage3" label="Image 03"/>
+        <flux:field.file name="backgroundImage3" label="Image Swap 03"/>
+        <flux:field.input name="link3" label="Link 03">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title4" label="Title 04"/>
+        <flux:field.input name="subtitle4" label="Subtitle 04"/>
+        <flux:field.file name="foregroundImage4" label="Image 04"/>
+        <flux:field.file name="backgroundImage4" label="Image Swap 04"/>
+        <flux:field.input name="link4" label="Link 04">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title5" label="Title 05"/>
+        <flux:field.input name="subtitle5" label="Subtitle 05"/>
+        <flux:field.file name="foregroundImage5" label="Image 05"/>
+        <flux:field.file name="backgroundImage5" label="Image Swap 05"/>
+        <flux:field.input name="link5" label="Link 05">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title6" label="Title 06"/>
+        <flux:field.input name="subtitle6" label="Subtitle 06"/>
+        <flux:field.file name="foregroundImage6" label="Image 06"/>
+        <flux:field.file name="backgroundImage6" label="Image Swap 06"/>
+        <flux:field.input name="link6" label="Link 06">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title7" label="Title 07"/>
+        <flux:field.input name="subtitle7" label="Subtitle 07"/>
+        <flux:field.file name="foregroundImage7" label="Image 07"/>
+        <flux:field.file name="backgroundImage7" label="Image Swap 07"/>
+        <flux:field.input name="link7" label="Link 07">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title8" label="Title 08"/>
+        <flux:field.input name="subtitle8" label="Subtitle 08"/>
+        <flux:field.file name="foregroundImage8" label="Image 08"/>
+        <flux:field.file name="backgroundImage8" label="Image Swap 08"/>
+        <flux:field.input name="link8" label="Link 08">
+            <flux:wizard.link/>
+        </flux:field.input>
+        <flux:field.input name="title9" label="Title 09"/>
+        <flux:field.input name="subtitle9" label="Subtitle 09"/>
+        <flux:field.file name="foregroundImage9" label="Image 09"/>
+        <flux:field.file name="backgroundImage9" label="Image Swap 09"/>
+        <flux:field.input name="link9" label="Link 09">
+            <flux:wizard.link/>
+        </flux:field.input>
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+    <h2 style=" ">Image Swap 01</h2>
+    <p><b>Title: </b>{title1}</p>
+    <p><b>Subtitle: </b>{subtitle1}</p>
+    <img src="{v:uri.image(src: '{foregroundImage1}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage1}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 02</h2>
+    <p><b>Title: </b>{title2}</p>
+    <p><b>Subtitle: </b>{subtitle2}</p>
+    <img src="{v:uri.image(src: '{foregroundImage2}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage2}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 03</h2>
+    <p><b>Title: </b>{title3}</p>
+    <p><b>Subtitle: </b>{subtitle3}</p>
+    <img src="{v:uri.image(src: '{foregroundImage3}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage3}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 04</h2>
+    <p><b>Title: </b>{title4}</p>
+    <p><b>Subtitle: </b>{subtitle4}</p>
+    <img src="{v:uri.image(src: '{foregroundImage4}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage4}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 05</h2>
+    <p><b>Title: </b>{title5}</p>
+    <p><b>Subtitle: </b>{subtitle5}</p>
+    <img src="{v:uri.image(src: '{foregroundImage5}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage5}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 06</h2>
+    <p><b>Title: </b>{title6}</p>
+    <p><b>Subtitle: </b>{subtitle6}</p>
+    <img src="{v:uri.image(src: '{foregroundImage6}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage6}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 07</h2>
+    <p><b>Title: </b>{title7}</p>
+    <p><b>Subtitle: </b>{subtitle7}</p>
+    <img src="{v:uri.image(src: '{foregroundImage7}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage7}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 08</h2>
+    <p><b>Title: </b>{title8}</p>
+    <p><b>Subtitle: </b>{subtitle8}</p>
+    <img src="{v:uri.image(src: '{foregroundImage8}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage8}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <h2 style=" ">Image Swap 09</h2>
+    <p><b>Title: </b>{title9}</p>
+    <p><b>Subtitle: </b>{subtitle9}</p>
+    <img src="{v:uri.image(src: '{foregroundImage9}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage9}', treatIdAsReference: 1)}" style="width: 150px;"/>
+</f:section>
+
+
+<f:section name="Main">
+    <div class="wrapper">
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage1}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link1}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage1}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title1}</h2>
+                        <h3>{subtitle1}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage2}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link2}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage2}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title2}</h2>
+                        <h3>{subtitle2}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage3}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link3}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage3}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title3}</h2>
+                        <h3>{subtitle3}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage4}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link4}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage4}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title4}</h2>
+                        <h3>{subtitle4}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage5}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link5}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage5}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title5}</h2>
+                        <h3>{subtitle5}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage6}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link6}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage6}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title6}</h2>
+                        <h3>{subtitle6}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage7}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link7}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage7}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title7}</h2>
+                        <h3>{subtitle7}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage8}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link8}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage8}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title8}</h2>
+                        <h3>{subtitle8}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+        <div class="bounding">
+            <img class="c-image" src="{v:uri.image(src: '{foregroundImage9}', treatIdAsReference: 1)}"/>
+                <f:link.typolink parameter="{link9}">
+                <div class="overlay">
+                    <img class="front-image" src="{v:uri.image(src: '{backgroundImage9}', treatIdAsReference: 1)}"/>
+                    <div class="text">
+                        <h2>{title9}</h2>
+                        <h3>{subtitle9}</h3>
+                    </div>
+                </div>
+                </f:link.typolink>
+        </div>
+    </div>
+</f:section>
+

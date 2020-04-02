@@ -1,0 +1,31 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+    
+<f:layout name="Content" />
+
+<f:section name="Configuration">
+    <flux:form id="contactoUSA" label="Contacto EEUU" description="Collectania EEUU" options="{group: 'FCE', icon: '/typo3conf/ext/collectania/Resources/Public/Icons/contacto.png'}">
+        <flux:field.text name="address" label="Address" enableRichText="1"/>
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+
+</f:section>
+
+
+<f:section name="Main">
+<div class="wrapping-usa">
+<div class="box">
+    <div class="ordinal">6</div>
+    <div class="address">
+        <h5>Miami</h5>
+        <f:format.html>{address}</f:format.html>
+    </div>
+</div>
+</div>
+</f:section>

@@ -1,0 +1,61 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+    
+<f:layout name="Content" />
+
+<f:section name="Configuration">
+    <flux:form id="contactoVE" label="Contacto Vzla" description="Tiendas de Collectania Vzla" options="{group: 'FCE', icon: '/typo3conf/ext/collectania/Resources/Public/Icons/contacto.png'}">
+        <flux:field.text name="address1" label="Address 01" enableRichText="1"/>
+        <flux:field.text name="address2" label="Address 02" enableRichText="1"/>
+        <flux:field.text name="address3" label="Address 03" enableRichText="1"/>
+        <flux:field.text name="address4" label="Address 04" enableRichText="1"/>
+        <flux:field.text name="address5" label="Address 05" enableRichText="1"/>
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+
+</f:section>
+
+
+<f:section name="Main">
+<div class="wrapping">
+<div class="box">
+    <div class="ordinal">1</div>
+    <div class="address">
+        <h5>Caracas</h5>
+        <f:format.html>{address1}</f:format.html>
+    </div>
+</div>
+<div class="box">
+    <div class="ordinal">2</div>
+    <div class="address">
+        <f:format.html>{address2}</f:format.html>
+    </div>
+</div>
+<div class="box">
+    <div class="ordinal">3</div>
+    <div class="address">
+        <f:format.html>{address3}</f:format.html>
+    </div>
+</div>
+<div class="box">
+    <div class="ordinal">4</div>
+    <div class="address">
+        <h5>Maracaibo</h5>
+        <f:format.html>{address4}</f:format.html>
+    </div>
+</div>
+<div class="box">
+    <div class="ordinal">5</div>
+    <div class="address">
+        <h5>Margarita</h5>
+        <f:format.html>{address5}</f:format.html>
+    </div>
+</div>
+</div>
+</f:section>

@@ -1,0 +1,33 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+    
+<f:layout name="Content" />
+
+<f:section name="Configuration">
+    <flux:form id="three-h-scroll" label="Hz Scroll 3 images" description="Three image max horizontal scroll" options="{group: 'FCE', icon: '/typo3conf/ext/collectania/Resources/Public/Icons/h-scroll-3.png'}">
+        <flux:field.file name="image01" label="Image 01"/>
+        <flux:field.file name="image02" label="Image 02"/>
+        <flux:field.file name="image03" label="Image 03"/>
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+    <img src="{v:uri.image(src: '{image01}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image02}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image03}', treatIdAsReference: 1)}" style="width: 150px;"/>
+</f:section>
+
+
+<f:section name="Main">
+    <div class="hs-wrap">
+        <img class="hs-image" src="{v:uri.image(src: '{image01}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image02}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image03}', treatIdAsReference: 1)}"/>
+</div> 
+</f:section>
+</div>

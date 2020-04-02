@@ -1,0 +1,47 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+    
+<f:layout name="Content" />
+
+<f:section name="Configuration">
+    <flux:form id="imageswap" label="Image Swap" description="Simple image swap on hover" options="{group: 'FCE', icon: '/typo3conf/ext/collectania/Resources/Public/Icons/imageswap.png'}">
+        <flux:field.input name="title" label="Title"/>
+        <flux:field.input name="subtitle" label="Subtitle"/>
+        <flux:field.file name="foregroundImage" label="Image"/>
+        <flux:field.file name="backgroundImage" label="Image Swap"/>
+        <flux:field.input name="link" label="Link">
+            <flux:wizard.link/>
+        </flux:field.input>
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+    <h2 style=" ">Image Swap</h2>
+    <p><b>Title: </b>{title}</p>
+    <p><b>Subtitle: </b>{subtitle}</p>
+    <img src="{v:uri.image(src: '{foregroundImage}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{backgroundImage}', treatIdAsReference: 1)}" style="width: 150px;"/>
+</f:section>
+
+
+<f:section name="Main">
+    <div class="bounding">
+        <img class="image" src="{v:uri.image(src: '{foregroundImage}', treatIdAsReference: 1)}"/>
+        
+            <f:link.typolink parameter="{link}">
+            <div class="overlay">
+                <img class="front-image" src="{v:uri.image(src: '{backgroundImage}', treatIdAsReference: 1)}"/>
+                <div class="text">
+                    <h2>{title}</h2>
+                    <h3>{subtitle}</h3>
+                </div>
+            </div>
+            </f:link.typolink>
+    </div> 
+</f:section>
+</div>
