@@ -29,6 +29,22 @@ html, body, .body-bg {
     max-height: 100%;
 }
 
+@media (max-width: 479.9px) {
+.navbar-mainnavigation .navbar-brand-image {
+    position: relative;
+    margin:0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+}
+
+@media (min-width: 480px) {
+.navbar-mainnavigation .navbar-brand-image {
+    position: relative;
+    padding: 0;
+}
+}
+
 #page-header {
     padding-top:4.5rem;
     padding-bottom:2em;
@@ -44,7 +60,6 @@ html, body, .body-bg {
 }
 
 h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
-    font-weight:500;
     font-weight:bold;
 }
 
@@ -58,25 +73,33 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     background-color:#e6e6e7;
 }
 
-#c121 {
+#c5 h2 {
+    font-size: 2.3rem;
+}
+
+#c121, #c228 {
+    padding-top:112px;
     padding-bottom:1.4rem;
     margin-bottom:0;
     margin-top: 0;
-    padding-top:112px;
     letter-spacing: -1.4px;
     background-color:#e6e6e7;
 }
 
-#c6 h2, #c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2 {
+#c121 h2, #c228 h2 {
+    font-size: 2.3rem;
+}
+
+#c6 h2, #c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2, #c212 h2 {
     padding-bottom: 0;
-    margin-top:95px;
+    margin-top:140px;
     margin-bottom: -1rem;
     letter-spacing: -1.4px;
     font-size: 2.3rem;
 }
 
-#c6 {
-    padding: 0;
+#c6, #c25, #c36, #c43, #c50, #c63, #c72, #c81, #c88, #c212 {
+    padding:0;
     margin:0;
     margin-bottom: -1rem;
     letter-spacing: -1.4px;
@@ -91,12 +114,13 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c51 h2, #c53 h2, #c55 h2, #c57 h2, #c59 h2, #c61 h2,
 #c64 h2, #c66 h2, #c68 h2, #c70 h2,
 #c73 h2, #c75 h2, #c77 h2, #c79 h2,
-#c82 h2, #c84 h2 h2, #c86 h2,
-#c89 h2, #c91 h2, #c93 h2, #c95 h2 {
+#c82 h2, #c84 h2, #c86 h2,
+#c89 h2, #c91 h2, #c93 h2, #c95 h2,
+#c184 h2, #c186 h2,
+#c213 h2, #c215 h2, #c217 h2, #c219 h2, #c221 h2, #c223 h2 {
     padding-bottom:0;
     margin-bottom: .4rem;
     margin-top: .8rem;
-    /*letter-spacing: -1.4px;*/
     font-weight:normal;
     font-size: 1.9rem;
 }
@@ -109,16 +133,58 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c64, #c66, #c68, #c70,
 #c73, #c75, #c77, #c79,
 #c82, #c84, #c86,
-#c89, #c91, #c93, #c95  {
+#c89, #c91, #c93, #c95,
+#c184, #c186,
+#c213, #c215, #c217, #c219, #c221, #c223 {
     padding-bottom:1.2rem;
 }
 
 /*** Each id controls one showroom ***/
-#c110, #c111, #c113, #c115, #c117 {
+#c111 h2, #c113 h2, #c115 h2 {
     padding-bottom:0;
-    margin-bottom:1.4rem;
-    margin-top: 1.9rem;
+    margin-bottom: .4rem;
+    margin-top: .8rem;
+    font-weight:normal;
+    font-size: 1.9rem;
+}
+
+#c111, #c113, #c115, #c117 {
+    padding-bottom:1.2rem;
+}
+
+#c110 {
+    padding-bottom: 0;
+    margin-top: 45px;
+    margin-bottom: -1rem;
     letter-spacing: -1.4px;
+}
+
+#c110 h2, #c117 h2 {
+    font-size: 2.3rem;
+}
+
+/*** Proyectos ***/
+#c199 {
+    padding-bottom: 0;
+    margin-top: 45px;
+    margin-bottom: -1rem;
+    letter-spacing: -1.4px;
+}
+
+#c199 h2 {
+    font-size: 2.3rem;
+}
+
+#c200 h2, #c202 h2, #c205 h2, #c206 h2, #c208 h2, #c210 h2 {
+    padding-bottom:0;
+    margin-bottom: .4rem;
+    margin-top: .8rem;
+    font-weight:normal;
+    font-size: 1.9rem;
+}
+
+#c200, #c202, #c205, #c206, #c208, #c210 {
+    padding-bottom:1.2rem;
 }
 
 /*** END MARCAS EN PRODUCTOS, SHOWROOMS ***/
@@ -179,6 +245,14 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c4 p {
     font-size: 1.2rem;
     line-height: 2rem;
+    font-weight: 300;
+}
+}
+
+@media (max-width: 479.9px) {
+#c4 p {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
     font-weight: 300;
 }
 }
@@ -245,7 +319,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     white-space: nowrap;
     position: relative;
     color: #000;
-/*    font-size: 2.5vw;*/
     font-weight:900;
     overflow: hidden;
     letter-spacing: -1.4px;
@@ -256,7 +329,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     white-space: nowrap;
     position: relative;
     color: #000;
-/*    font-size: 6vw;*/
     font-weight:900;
     overflow: hidden;
 }
@@ -264,7 +336,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     white-space: nowrap;
     position: relative;
     color: #000;
-/*    font-size: 6vw;*/
     font-weight:900;
     overflow: hidden;
 }
@@ -307,6 +378,20 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 }
 
+/***** PROJECTS BUTTON GRID *****/
+
+@media (min-width: 768px) {
+.wrapper3 {
+    position:relative;
+    display:grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 9px;
+    grid-auto-flow: dense;
+    background-color: #e6e6e7;
+}
+}
+
 /***** HORIZONTAL SCROLL *****/
 .hs-wrap {
     display: flex;
@@ -333,12 +418,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 .hs-wrap {
     scrollbar-width: none;
 }
-
-/*figure {
-    display: block;
-    margin-bottom: 0;
-    line-height: 1.5;
-}*/
 
 /***** HORIZONTAL SCROLL END *****/
 
@@ -442,19 +521,72 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 }
 
+@media (max-width: 479.9px) {
+#c5 h2, #c121 h2, #c228 h2,
+#c199 h2,
+#c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2, #c212 h2 {
+    font-size: 1.5rem;
+    margin-top:60px;
+}
+#c6 h2, #c110 h2, #c117 h2, #c199 h2 {
+    font-size: 1.5rem;
+    margin-top:0;
+}
+#c110, #c199 {
+    margin:0;
+    padding:0;
+    margin-bottom: -1rem;
+    letter-spacing: -1.4px;
+}
+#c200 h2, #c202 h2, #c205 h2, #c206 h2, #c208 h2, #c210 h2,
+#c111 h2, #c113 h2, #c115 h2,
+#c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2,
+#c26 h2, #c28 h2, #c30 h2, #c32 h2, #c34 h2,
+#c37 h2, #c39 h2, #c41 h2,
+#c44 h2, #c46 h2, #c48 h2,
+#c51 h2, #c53 h2, #c55 h2, #c57 h2, #c59 h2, #c61 h2,
+#c64 h2, #c66 h2, #c68 h2, #c70 h2,
+#c73 h2, #c75 h2, #c77 h2, #c79 h2,
+#c82 h2, #c84 h2, #c86 h2,
+#c89 h2, #c91 h2, #c93 h2, #c95 h2,
+#c184 h2, #c186 h2,
+#c213 h2, #c215 h2, #c217 h2, #c219 h2, #c221 h2, #c223 h2 {
+    font-size: 1.2rem;
+}
+#c9, #c10, #c11, #c13, #c15, #c17, #c19, #c21, #c23,
+#c26, #c28, #c30, #c32, #c34,
+#c37, #c39, #c41,
+#c44, #c46, #c48,
+#c51, #c53, #c55, #c57, #c59, #c61,
+#c64, #c66, #c68, #c70,
+#c73, #c75, #c77, #c79,
+#c82, #c84, #c86,
+#c89, #c91, #c93, #c95,
+#c184, #c186,
+#c213, #c215, #c217, #c219, #c221, #c223,
+#c111, #c113, #c115, #c117,
+#c200, #c202, #c205, #c206, #c208, #c210 {
+    padding-bottom:.5rem;
+}
+.hs-wrap {
+    margin-bottom: .5rem;
+}
+}
+
 /****** END OF CONTACTO ******/
 
 /*****  LOGOS  *****/
 #p1 .gallery-row {
-    padding-top:5rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
 }
 
-#p1 .gallery-item {
+#p1 .gallery-item-size-6 {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding-bottom:4rem;
-    margin:0 15px;
+    margin:0 13px;
     max-width:145px;
     height:auto;
 }
@@ -465,13 +597,14 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     height: auto;
 }
 
-@media (max-width: 575.9px) {
-#p1 .gallery-item {
+/*@media (max-width: 575.9px) {
+#p1 .gallery-item-size-6 {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding-bottom:3rem;
-}
+    margin:0 8px;
+    max-width:120px;
+}*/
 }
 
 /*****  END OF LOGOS  *****/

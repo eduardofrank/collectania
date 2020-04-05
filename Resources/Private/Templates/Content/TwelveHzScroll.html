@@ -1,0 +1,60 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+    
+<f:layout name="Content" />
+
+<f:section name="Configuration">
+    <flux:form id="twelve-h-scroll" label="Hz Scroll 12 images" description="Twelve image max horizontal scroll" options="{group: 'FCE', icon: '/typo3conf/ext/collectania/Resources/Public/Icons/h-scroll-12.png'}">
+        <flux:field.file name="image01" label="Image 01"/>
+        <flux:field.file name="image02" label="Image 02"/>
+        <flux:field.file name="image03" label="Image 03"/>
+        <flux:field.file name="image04" label="Image 04"/>
+        <flux:field.file name="image05" label="Image 05"/>
+        <flux:field.file name="image06" label="Image 06"/>
+        <flux:field.file name="image07" label="Image 07"/>
+        <flux:field.file name="image08" label="Image 08"/>
+        <flux:field.file name="image09" label="Image 09"/>
+        <flux:field.file name="image10" label="Image 10"/>
+        <flux:field.file name="image11" label="Image 11"/>
+        <flux:field.file name="image12" label="Image 12"/>
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+    <img src="{v:uri.image(src: '{image01}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image02}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image03}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image04}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image05}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image06}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image07}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image08}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image09}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image10}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image11}', treatIdAsReference: 1)}" style="width: 150px;"/>
+    <img src="{v:uri.image(src: '{image12}', treatIdAsReference: 1)}" style="width: 150px;"/>
+</f:section>
+
+
+<f:section name="Main">
+    <div class="hs-wrap">
+        <img class="hs-image" src="{v:uri.image(src: '{image01}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image02}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image03}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image04}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image05}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image06}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image07}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image08}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image09}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image10}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image11}', treatIdAsReference: 1)}"/>
+        <img class="hs-image" src="{v:uri.image(src: '{image12}', treatIdAsReference: 1)}"/>
+</div> 
+</f:section>
+</div>
