@@ -203,7 +203,22 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     font-size: 2.3rem;
 }
 
-#c200 h2, #c202 h2, #c205 h2, #c206 h2, #c208 h2, #c210 h2 {
+#c263 h2, #c268 h2, #c271 h2, #c274 h2 {
+    padding-bottom: 0;
+    margin-top:140px;
+    margin-bottom: -1rem;
+    letter-spacing: -1.4px;
+    font-size: 2.3rem;
+}
+
+#c263, #c268, #c271, #c274 {
+    padding:0;
+    margin:0;
+    margin-bottom: -1rem;
+    letter-spacing: -1.4px;
+}
+
+#c200 h2, #c202 h2, #c205 h2, #c206 h2, #c208 h2, #c210 h2, #c256 h2, #c264 h2, #c266 h2, #c269 h2, #c272 h2, #c275 h2 {
     padding-bottom:0;
     margin-bottom: .4rem;
     margin-top: .8rem;
@@ -211,11 +226,11 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     font-size: 1.9rem;
 }
 
-#c200, #c202, #c205, #c206, #c208, #c210 {
+#c200, #c202, #c205, #c206, #c208, #c210, #c256, #c264, #c266, #c269, #c272, #c275 {
     padding-bottom:1.2rem;
 }
 
-/*** END MARCAS EN PRODUCTOS, SHOWROOMS ***/
+/*** END MARCAS EN PRODUCTOS, SHOWROOMS, PROYECTOS ***/
 
 /*** WIDTH OF CONTAINER ***/
 @media (min-width: 1200px) {
