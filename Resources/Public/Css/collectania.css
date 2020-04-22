@@ -171,18 +171,18 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 
 /* compensacion por el menu c231 */
 #c6 h2 {
-    margin-top:38px;
+    margin-top:22px;
 }
 
 /*** MARCAS EN PRODUCTOS, SHOWROOMS ***/
 /*** Each line controls all brands in one category ***/
-#c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2, #c232 h2, #c234 h2, #c236 h2, #c239 h2, #c241 h2, #c243 h2, #c245 h2, #c360 h2,
+#c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2, #c232 h2, #c234 h2, #c236 h2, #c239 h2, #c241 h2, #c243 h2, #c245 h2, #c360 h2, #c364 h2, #c366 h2, #c371 h2, #c373 h2, #c375 h2,
 #c26 h2, #c28 h2, #c30 h2, #c32 h2, #c34 h2,
 #c37 h2, #c39 h2, #c41 h2,
 #c44 h2, #c46 h2, #c48 h2,
 #c51 h2, #c53 h2, #c55 h2, #c57 h2, #c59 h2, #c61 h2,
 #c64 h2, #c66 h2, #c68 h2, #c70 h2,
-#c73 h2, #c75 h2, #c77 h2, #c79 h2, #c247 h2, #c249 h2, #c251 h2, #c255 h2,
+#c73 h2, #c75 h2, #c77 h2, #c79 h2, #c247 h2, #c249 h2, #c251 h2, #c255 h2, #c369 h2,
 #c82 h2, #c84 h2, #c86 h2,
 #c89 h2, #c91 h2, #c93 h2, #c95 h2,
 #c184 h2, #c186 h2,
@@ -194,13 +194,13 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     font-size: 1.9rem;
 }
 
-#c9, #c10, #c11, #c13, #c15, #c17, #c19, #c21, #c23, #c232, #c234, #c236, #c239, #c241, #c243, #c245, #c360,
+#c9, #c10, #c11, #c13, #c15, #c17, #c19, #c21, #c23, #c232, #c234, #c236, #c239, #c241, #c243, #c245, #c360, #c364, #c366, #c371, #c373, #c375,
 #c26, #c28, #c30, #c32, #c34,
 #c37, #c39, #c41,
 #c44, #c46, #c48,
 #c51, #c53, #c55, #c57, #c59, #c61,
 #c64, #c66, #c68, #c70,
-#c73, #c75, #c77, #c79, #c247, #c249, #c251, #c255,
+#c73, #c75, #c77, #c79, #c247, #c249, #c251, #c255, #c369,
 #c82, #c84, #c86,
 #c89, #c91, #c93, #c95,
 #c184, #c186,
@@ -217,26 +217,26 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     font-size: 1.9rem;
 }
 
-#c111, #c113, #c115, #c117 {
+#c111, #c113, #c115, #c117, #c368 {
     padding-bottom:1.2rem;
 }
 
 #c110 {
     padding-bottom: 0;
-    margin-top: 30px;
+    margin-top: 14px;
     margin-bottom: -1rem;
     letter-spacing: -1.4px;
 }
 
-#c110 h2, #c117 h2 {
+#c110 h2, #c117 h2, #c368 h2 {
     font-size: 2.3rem;
 }
 
 /*** Proyectos ***/
 #c199 {
     padding-bottom: 0;
-    margin-top: 30px;
-    margin-bottom: -1rem;
+    margin-top: 14px;
+    margin-bottom: 1.4rem;
     letter-spacing: -1.4px;
 }
 
@@ -244,32 +244,36 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     font-size: 2.3rem;
 }
 
-#c263 h2, #c268 h2, #c271 h2, #c274 h2 {
+#c202 h2, #c205 h2, #c206 h2, #c208 h2, #c263 h2, #c268 h2, #c271 h2, #c274 h2 {
     padding-bottom: 0;
-    margin-top:140px;
-    margin-bottom: -1rem;
+    margin-top:0;
+    margin-bottom: .8rem;
     letter-spacing: -1.4px;
     font-size: 2.3rem;
 }
 
-#c263, #c268, #c271, #c274 {
+#c202, #c205, #c206, #c208 {
+    padding-bottom:1.2rem;
+}
+
+#c1 {
+    padding-top: 40px;
+}
+
+/*#c263, #c268, #c271, #c274 {
     padding:0;
     margin:0;
     margin-bottom: -1rem;
     letter-spacing: -1.4px;
-}
+}*/
 
-#c200 h2, #c202 h2, #c205 h2, #c206 h2, #c208 h2, #c210 h2, #c256 h2, #c264 h2, #c266 h2, #c269 h2, #c272 h2, #c275 h2 {
+/*#c210 h2, #c256 h2, #c264 h2, #c266 h2, #c269 h2, #c272 h2, #c275 h2 {
     padding-bottom:0;
     margin-bottom: .4rem;
     margin-top: .8rem;
     font-weight:normal;
     font-size: 1.9rem;
-}
-
-#c200, #c202, #c205, #c206, #c208, #c210, #c256, #c264, #c266, #c269, #c272, #c275 {
-    padding-bottom:1.2rem;
-}
+}*/
 
 /*** END MARCAS EN PRODUCTOS, SHOWROOMS, PROYECTOS ***/
 
@@ -636,14 +640,19 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 }
 
-@media (max-width: 479.9px) {
+@media (max-width: 480px) {
 #c5 h2, #c121 h2, #c228 h2,
-#c199 h2,
-#c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2, #c212 h2 {
+#c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2, #c212 h2, #c117 h2, #c368 h2 {
     font-size: 1.5rem;
     margin-top:20px;
+    padding-top:3rem;
 }
-#c6 h2, #c110 h2, #c117 h2, #c199 h2 {
+#c199 h2 {
+    margin-top:20px;
+    margin-bottom:1.7rem;
+    font-size: 1.2rem;
+}
+#c6 h2, #c110 h2 {
     font-size: 1.5rem;
     margin-top:0;
 }
@@ -657,41 +666,54 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     margin-bottom: -1rem;
     letter-spacing: -1.4px;
 }
-#c200 h2, #c202 h2, #c205 h2, #c206 h2, #c208 h2, #c210 h2, #c256 h2, #c264 h2, #c266 h2, #c269 h2, #c272 h2, #c275 h2,
+#c121, #c228 {
+    padding-top: 50px;
+    padding-bottom: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    letter-spacing: -1.4px;
+    background-color: #e6e6e7;
+}
+#c202 h2, #c205 h2, #c206 h2, #c208 h2,
 #c111 h2, #c113 h2, #c115 h2,
-#c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2, #c232 h2, #c234 h2,  #c236 h2, #c239 h2, #c241 h2, #c243 h2, #c245 h2, #c360 h2,
+#c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2, #c232 h2, #c234 h2,  #c236 h2, #c239 h2, #c241 h2, #c243 h2, #c245 h2, #c360 h2, #c364 h2, #c366 h2, #c371 h2, #c373 h2, #c375 h2,
 #c26 h2, #c28 h2, #c30 h2, #c32 h2, #c34 h2,
 #c37 h2, #c39 h2, #c41 h2,
 #c44 h2, #c46 h2, #c48 h2,
 #c51 h2, #c53 h2, #c55 h2, #c57 h2, #c59 h2, #c61 h2,
 #c64 h2, #c66 h2, #c68 h2, #c70 h2,
-#c73 h2, #c75 h2, #c77 h2, #c79 h2, #c247 h2, #c249 h2, #c251 h2, #c255 h2,
+#c73 h2, #c75 h2, #c77 h2, #c79 h2, #c247 h2, #c249 h2, #c251 h2, #c255 h2, #c369 h2,
 #c82 h2, #c84 h2, #c86 h2,
 #c89 h2, #c91 h2, #c93 h2, #c95 h2,
 #c184 h2, #c186 h2,
 #c213 h2, #c215 h2, #c217 h2, #c219 h2, #c221 h2, #c223 h2 {
+    margin-top:0;
     font-size: 1.2rem;
 }
-#c9, #c10, #c11, #c13, #c15, #c17, #c19, #c21, #c23, #c232, #c234, #c236, #c239, #c241, #c243, #c245, #c360,
+#c9, #c10, #c11, #c13, #c15, #c17, #c19, #c21, #c23, #c232, #c234, #c236, #c239, #c241, #c243, #c245, #c360, #c364, #c366, #c371, #c373, #c375,
 #c26, #c28, #c30, #c32, #c34,
 #c37, #c39, #c41,
 #c44, #c46, #c48,
 #c51, #c53, #c55, #c57, #c59, #c61,
 #c64, #c66, #c68, #c70,
-#c73, #c75, #c77, #c79, #c247, #c249, #c251, #c255,
+#c73, #c75, #c77, #c79, #c247, #c249, #c251, #c255, #c369,
 #c82, #c84, #c86,
 #c89, #c91, #c93, #c95,
 #c184, #c186,
 #c213, #c215, #c217, #c219, #c221, #c223,
-#c111, #c113, #c115, #c117,
-#c200, #c202, #c205, #c206, #c208, #c210, #c256, #c264, #c266, #c269, #c272, #c275 {
-    padding-bottom:.5rem;
+#c111, #c113, #c115,
+#c202, #c205, #c206, #c208 {
+    padding-bottom:0rem;
 }
 .hs-wrap {
     margin-bottom: .5rem;
 }
 .gallery-row {
     margin-bottom:0;
+}
+#page-header {
+    padding-top: 2rem;
+    padding-bottom: 2em;
 }
 }
 
