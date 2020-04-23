@@ -652,13 +652,13 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 #c199 h2 {
     margin-top:20px;
-    margin-bottom:1.7rem;
+    margin-bottom:2.1rem;
     font-size: 1.2rem;
 }
-#c6 h2, #c110 h2 {
+/*#c6 h2, #c110 h2 {
     margin-bottom:2.4rem;
     font-size: 1.2rem;
-}
+}*/
 #c6 h2, #c110 h2, #c117 h2 {
     font-size: 1.5rem;
     margin-top:0;
