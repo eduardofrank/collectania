@@ -235,11 +235,8 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 /*** Proyectos ***/
 #c199 {
     padding-bottom: 0;
-<<<<<<< HEAD
     margin-top: 14px;
-=======
     margin-top: 30px;
->>>>>>> 28205a4cc3dddf62e24b2d1c4929c6e976334e26
     margin-bottom: 1.4rem;
     letter-spacing: -1.4px;
 }
@@ -260,13 +257,10 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     padding-bottom:1.2rem;
 }
 
-<<<<<<< HEAD
 #c1 {
     padding-top: 40px;
 }
 
-=======
->>>>>>> 28205a4cc3dddf62e24b2d1c4929c6e976334e26
 /*#c263, #c268, #c271, #c274 {
     padding:0;
     margin:0;
@@ -647,30 +641,25 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 }
 
+/****** END OF CONTACTO ******/
+
 @media (max-width: 480px) {
 #c5 h2, #c121 h2, #c228 h2,
-<<<<<<< HEAD
 #c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2, #c212 h2, #c117 h2, #c368 h2 {
-=======
-#c25 h2, #c36 h2, #c43 h2, #c50 h2, #c63 h2, #c72 h2, #c81 h2, #c88 h2, #c212 h2 {
->>>>>>> 28205a4cc3dddf62e24b2d1c4929c6e976334e26
     font-size: 1.5rem;
     margin-top:20px;
     padding-top:3rem;
 }
 #c199 h2 {
     margin-top:20px;
-<<<<<<< HEAD
     margin-bottom:1.7rem;
     font-size: 1.2rem;
 }
 #c6 h2, #c110 h2 {
-=======
     margin-bottom:2.4rem;
     font-size: 1.2rem;
 }
 #c6 h2, #c110 h2, #c117 h2 {
->>>>>>> 28205a4cc3dddf62e24b2d1c4929c6e976334e26
     font-size: 1.5rem;
     margin-top:0;
 }
@@ -684,7 +673,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     margin-bottom: -1rem;
     letter-spacing: -1.4px;
 }
-<<<<<<< HEAD
 #c121, #c228 {
     padding-top: 50px;
     padding-bottom: 1.4rem;
@@ -693,8 +681,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     letter-spacing: -1.4px;
     background-color: #e6e6e7;
 }
-=======
->>>>>>> 28205a4cc3dddf62e24b2d1c4929c6e976334e26
 #c202 h2, #c205 h2, #c206 h2, #c208 h2,
 #c111 h2, #c113 h2, #c115 h2,
 #c9 h2, #c10 h2, #c11 h2, #c13 h2, #c15 h2, #c17 h2, #c19 h2, #c21 h2, #c23 h2, #c232 h2, #c234 h2,  #c236 h2, #c239 h2, #c241 h2, #c243 h2, #c245 h2, #c360 h2, #c364 h2, #c366 h2, #c371 h2, #c373 h2, #c375 h2,
@@ -722,15 +708,13 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c89, #c91, #c93, #c95,
 #c184, #c186,
 #c213, #c215, #c217, #c219, #c221, #c223,
-<<<<<<< HEAD
 #c111, #c113, #c115,
 #c202, #c205, #c206, #c208 {
-    padding-bottom:0rem;
-=======
+    padding-bottom:0;
+}
 #c111, #c113, #c115, #c117,
 #c202, #c205, #c206, #c208 {
     padding-bottom:.5rem;
->>>>>>> 28205a4cc3dddf62e24b2d1c4929c6e976334e26
 }
 .hs-wrap {
     margin-bottom: .5rem;
@@ -744,8 +728,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 }
 
-/****** END OF CONTACTO ******/
-
 /*****  LOGOS  *****/
 #p1 .gallery-row {
     padding-top: 5rem;
@@ -755,7 +737,7 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     max-height:unset;
 }
 
-#p1 .gallery-item-size-6 {
+#p1 .gallery-item {
     display: flex;
     align-items: center;
     padding-bottom:4rem;
@@ -771,7 +753,7 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 }
 
 @media (max-width: 479.9px) {
-#p1 .gallery-item-size-6 {
+#p1 .gallery-item .gallery-item-size-6 {
     display: flex;
     align-items: center;
     padding-bottom:3rem;
