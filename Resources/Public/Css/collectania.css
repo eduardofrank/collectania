@@ -316,6 +316,14 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
     border-right: 2px solid #7d7d7d;
 }
 
+.carousel .carousel-control-prev .carousel-control-icon::before {
+    transform: rotate(225deg) skew(200deg,200deg);
+}
+
+.carousel .carousel-control-next .carousel-control-icon::before {
+    transform: rotate(45deg) skew(20deg,20deg);
+}
+
 /**** END CAROUSEL ****/
 
 /**** TEXT ON HOME ****/
