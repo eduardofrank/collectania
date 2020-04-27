@@ -236,7 +236,6 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c199 {
     padding-bottom: 0;
     margin-top: 14px;
-    margin-top: 30px;
     margin-bottom: 1.4rem;
     letter-spacing: -1.4px;
 }
@@ -661,12 +660,12 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c199 h2 {
     margin-top:20px;
     margin-bottom:2.1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
-/*#c6 h2, #c110 h2 {
-    margin-bottom:2.4rem;
-    font-size: 1.2rem;
-}*/
+#c6 h2, #c110 h2 {
+    /*margin-bottom:2.4rem;*/
+    font-size: 1.5rem;
+}
 #c6 h2, #c110 h2, #c117 h2 {
     font-size: 1.5rem;
     margin-top:0;
@@ -723,6 +722,9 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c111, #c113, #c115, #c117,
 #c202, #c205, #c206, #c208 {
     padding-bottom:.5rem;
+}
+#c202 h2, #c205 h2, #c206 h2, #c208 h2 {
+    font-size: 1.5rem;
 }
 .hs-wrap {
     margin-bottom: .5rem;
