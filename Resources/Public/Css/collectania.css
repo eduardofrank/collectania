@@ -726,6 +726,12 @@ h1, h2, h3, h4, h5, h6, h1a, h2a, h3a, h4a, h5a, h6a {
 #c202 h2, #c205 h2, #c206 h2, #c208 h2 {
     font-size: 1.5rem;
 }
+#c6, #c25, #c36, #c43, #c50, #c63, #c72, #c81, #c88, #c212, #c110 {
+    padding:0;
+    margin:0;
+    margin-bottom: .2rem;
+    letter-spacing: -1.4px;
+}
 .hs-wrap {
     margin-bottom: .5rem;
 }

@@ -34,6 +34,13 @@ config.admPanel = 0
 config.contentObjectExceptionHandler = 0
 
 
+page.headerData.2020 = FLUIDTEMPLATE
+page.headerData.2020 {
+	file = EXT:collectania/Resources/Private/Templates/Favicons.html
+ 	extbase.controllerExtensionName = collectania
+}
+
+
 lib.contentElement.settings.responsiveimages.variants {
     default {
         breakpoint = 1200
